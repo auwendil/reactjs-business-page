@@ -2,14 +2,14 @@
  * Created by antares on 20.02.2023
  */
 
-import UnderlineLinkAnim from './Effects/UnderlineLinkAnim.jsx';
-import Container from './UI/Container.jsx';
-import styles from './Navigation.module.css';
+import UnderlineLinkAnim from '../Effects/UnderlineLinkAnim.jsx';
+import Container from '../UI/Container.jsx';
+import Logo from '../UI/Logo.jsx';
+import styles from './DesktopNavigation.module.css';
 
 import React from 'react';
-import Logo from './UI/Logo.jsx';
 
-function Navigation() {
+function DesktopNavigation() {
     return (
         <Container className={styles.navigation}>
             <Logo/>
@@ -23,6 +23,6 @@ function Navigation() {
     );
 }
 
-Navigation.propTypes = {};
+DesktopNavigation.propTypes = {};
 
-export default Navigation;
+export default DesktopNavigation;
