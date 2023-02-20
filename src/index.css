@@ -1,0 +1,34 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+
+    --main-font-color: #ddd;
+    --accent-font-color: #1c6b1c;
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 62.5%;
+    color: var(--main-font-color);
+}
+
+a {
+    color: var(--main-font-color);
+
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}

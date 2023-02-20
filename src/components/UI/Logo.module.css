@@ -1,0 +1,20 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+}
+
+.companyName {
+    margin-left: 1rem;
+    text-shadow: 0 0 3px black;
+}
+
+a {
+
+}
+
+a:hover {
+    color: var(--accent-font-color);
+}
