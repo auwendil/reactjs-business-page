@@ -1,6 +1,4 @@
 .navigation {
-    position: sticky;
-    top: 0;
     padding: 1rem;
     display: flex;
     flex-direction: row;
@@ -10,16 +8,36 @@
     font-size: 1.6rem;
 }
 
-
-.nav {
-    margin-right: 1rem;
+.navMenu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    background-color: white;
+}
+
+.logo {
+    color: var(--light-color);
 }
 
 .navLink {
-    margin-left: 1.4rem;
-    text-align: center;
+    margin: 1rem;
+}
+
+.navLink a::before, .navLink a::after {
+    border-bottom: 1px solid var(--accent-color);
+}
+
+.navLink a {
+    color: var(--dark-color);
+}
+
+.navLink a:hover {
+    color: var(--dark-color);
 }

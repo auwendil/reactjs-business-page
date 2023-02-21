@@ -16,5 +16,5 @@ a {
 }
 
 a:hover {
-    color: var(--accent-font-color);
+    color: var(--accent-color);
 }

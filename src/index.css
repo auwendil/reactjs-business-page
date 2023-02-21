@@ -6,8 +6,9 @@
     color: rgba(255, 255, 255, 0.87);
     background-color: #242424;
 
-    --main-font-color: #ddd;
-    --accent-font-color: #1c6b1c;
+    --light-color: #ddd;
+    --dark-color: black;
+    --accent-color: #1c6b1c;
 }
 
 *, *::after, *::before {
@@ -19,12 +20,10 @@
 body {
     min-height: 100vh;
     font-size: 62.5%;
-    color: var(--main-font-color);
+    color: var(--light-color);
 }
 
 a {
-    color: var(--main-font-color);
-
     text-decoration: none;
     cursor: pointer;
 }

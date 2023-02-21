@@ -1,0 +1,11 @@
+.hamburger {
+    padding: 1rem;
+    z-index: 500;
+}
+
+.hamburger .hamburger-inner,
+.hamburger .hamburger-inner::after,
+.hamburger .hamburger-inner::before {
+    background-color: var(--light-color);
+    z-index: 500;
+}

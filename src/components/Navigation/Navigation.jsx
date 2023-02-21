@@ -3,7 +3,7 @@
  */
 
 import {greaterThan, sizes, smallerOrEqualThan, useClosestMedia} from '../../hooks/MediaQueryHook.jsx';
-import UnderlineLinkAnim from '../Effects/UnderlineLinkAnim.jsx';
+import UnderlineLinkAnim from '../Effects/Link/UnderlineLinkAnim.jsx';
 import Container from '../UI/Container.jsx';
 import DesktopNavigation from './DesktopNavigation.jsx';
 import MobileNavigation from './MobileNavigation.jsx';

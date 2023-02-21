@@ -1,0 +1,46 @@
+:root {
+    --a-color: var(--light-color);
+    --hover-color: var(--accent-color);
+    --anim-color: var(--light-color);
+}
+
+.link {
+    position: relative;
+}
+
+.link a::before, .link a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    /*border-bottom: 1px solid var(--link-anim-color);*/
+
+    transition: width .4s;
+}
+
+.link a::before {
+    left: 50%;
+}
+
+.link a::after {
+    right: 50%;
+}
+
+.link a:hover::before, .link a:hover::after {
+    width: 50%;
+}
+
+
+/* override to change colors */
+
+.link a::before, .link a::after {
+    border-bottom: 1px solid var(--anim-color);
+}
+
+.link a {
+    color: var(--a-color);
+}
+
+.link a:hover {
+    color: var(--hover-color);
+}
