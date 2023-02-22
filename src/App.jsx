@@ -1,16 +1,16 @@
 import React, {useState} from 'react';
-import './App.css';
+import './App.scss';
+import Header from './components/Header.jsx';
 import Navigation from './components/Navigation/Navigation.jsx';
 
 function App() {
     return (
         <div className="App">
             <Navigation></Navigation>
-            <header>
-                <h1>WEBPAGE</h1>
-            </header>
+            <Header/>
 
-            <main>
+
+            <main style={{fontSize: 20}}>
 
                 <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cupiditate eveniet excepturi,
                     explicabo impedit laborum laudantium nulla officia porro possimus quas quod, recusandae rem, totam

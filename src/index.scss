@@ -1,3 +1,5 @@
+@use 'breakpoints';
+
 :root {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
@@ -9,6 +11,13 @@
     --light-color: #ddd;
     --dark-color: black;
     --accent-color: #1c6b1c;
+
+
+    --sm-breakpoint: 576px;
+    --md-breakpoint: 768px;
+    --lg-breakpoint: 992px;
+    --xl-breakpoint: 1200px;
+    --xxl-breakpoint: 1400px;
 }
 
 *, *::after, *::before {
