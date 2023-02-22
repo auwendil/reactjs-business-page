@@ -1,12 +1,6 @@
 import React, {useEffect, useState} from 'react';
+import breakpoints from '../breakpoints.js';
 
-export const breakpoints = {
-    sm: 576,
-    md: 768,
-    lg: 992,
-    xl: 1200,
-    xxl: 1400,
-};
 
 function isMatch(media) {
     const query = `(min-width: ${media}px)`;
@@ -96,17 +90,28 @@ export function isXxl(media) {
 
 
 export const useMedia = () => {
+    const [width, setWidth] = useState(0);
     const [media, setMedia] = useState('sm');
 
     useEffect(() => {
-        const listener = () => setMedia(findClosest(breakpoints));
+        const listener = () => {
+            setMedia(findClosest(breakpoints));
+            setWidth(window.innerWidth);
+        };
         listener();
         window.addEventListener('resize', listener);
         return () => window.removeEventListener('resize', listener); //Cleanup
     }, []);
 
     return {
-        current: media,
+        width: width,
+        currentBreakpoint: media,
+        minWidthNone: width < breakpoints.sm,
+        minWidthSm: width < breakpoints.md,
+        minWidthMd: width < breakpoints.lg,
+        minWidthLg: width < breakpoints.xl,
+        minWidthXl: width < breakpoints.xxl,
+        maxWidth: width >= breakpoints.xxl,
         minSm: breakpoints[media] <= breakpoints.sm,
         minMd: breakpoints[media] <= breakpoints.md,
         minLg: breakpoints[media] <= breakpoints.lg,

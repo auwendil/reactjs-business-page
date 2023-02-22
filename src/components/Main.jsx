@@ -5,12 +5,14 @@
 import styles from './Main.module.css';
 
 import React from 'react';
+import AboutUsSection from './Sections/AboutUsSection.jsx';
 import OffersSection from './Sections/OffersSection.jsx';
 
 function Main() {
     return (
         <main>
-            <OffersSection/>
+            <OffersSection></OffersSection>
+            <AboutUsSection></AboutUsSection>
         </main>
     );
 }

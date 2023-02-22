@@ -2,7 +2,7 @@
  * Created by antares on 20.02.2023
  */
 
-import colors from '../../colors.js';
+import colors from '../../breakpoints.js';
 import UnderlineLinkAnim from '../Effects/Link/UnderlineLinkAnim.jsx';
 import BurgerButton from '../UI/Hamburger/BurgerButton.jsx';
 import Logo from '../UI/Logo.jsx';
