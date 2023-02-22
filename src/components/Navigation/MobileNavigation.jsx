@@ -29,10 +29,14 @@ function MobileNavigation() {
             <BurgerButton buttonType="hamburger--collapse" active={menuOpened} onClick={clickHandler}></BurgerButton>
             {menuOpened &&
                 <div className={styles.navMenu}>
-                    <UnderlineLinkAnim className={styles.navLink} href="#">Home</UnderlineLinkAnim>
-                    <UnderlineLinkAnim className={styles.navLink} href="#portfolio">Portfolio</UnderlineLinkAnim>
-                    <UnderlineLinkAnim className={styles.navLink} href="#aboutus">About us</UnderlineLinkAnim>
-                    <UnderlineLinkAnim className={styles.navLink} href="#contact">Contact</UnderlineLinkAnim>
+                    <UnderlineLinkAnim className={styles.navLink} href="#"><span
+                        onClick={clickHandler}>Home</span></UnderlineLinkAnim>
+                    <UnderlineLinkAnim className={styles.navLink} href="#offers"><span
+                        onClick={clickHandler}>Offers</span></UnderlineLinkAnim>
+                    <UnderlineLinkAnim className={styles.navLink} href="#about-us"><span
+                        onClick={clickHandler}>About us</span></UnderlineLinkAnim>
+                    <UnderlineLinkAnim className={styles.navLink} href="#contact"><span
+                        onClick={clickHandler}>Contact</span></UnderlineLinkAnim>
                 </div>
             }
         </nav>

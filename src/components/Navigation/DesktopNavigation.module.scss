@@ -29,4 +29,8 @@
 
 .logo {
     color: var(--light-color);
+
+    &:hover {
+        color: var(--dark-color);
+    }
 }

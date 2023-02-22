@@ -6,6 +6,7 @@
 import Carousel from 'react-multi-carousel';
 import breakpoints from '../../breakpoints.js';
 import useMedia from '../../hooks/MediaQueryHook.jsx';
+import HeaderSection from '../HeaderSection.jsx';
 import styles from './AboutUsSection.module.scss';
 
 import ceoImage from '../../assets/img/team/ceo.jpg';
@@ -70,6 +71,7 @@ function AboutUsSection() {
 
     return (
         <section id="about-us" className={styles.aboutUs}>
+            <HeaderSection>Our team</HeaderSection>
             {minSm
                 ? carousel
                 : presentation}

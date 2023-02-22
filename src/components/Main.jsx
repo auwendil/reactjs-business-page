@@ -6,6 +6,7 @@ import styles from './Main.module.css';
 
 import React from 'react';
 import AboutUsSection from './Sections/AboutUsSection.jsx';
+import ContactSection from './Sections/ContactSection.jsx';
 import OffersSection from './Sections/OffersSection.jsx';
 
 function Main() {
@@ -13,6 +14,7 @@ function Main() {
         <main>
             <OffersSection></OffersSection>
             <AboutUsSection></AboutUsSection>
+            <ContactSection></ContactSection>
         </main>
     );
 }

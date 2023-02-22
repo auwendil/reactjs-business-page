@@ -1,8 +1,10 @@
+@use "../../colors";
 @use "../../breakpoints";
 
 .aboutUs {
-    margin: 2rem 0;
+    padding-bottom: 2rem;
     width: 100%;
+    background-color: colors.$background-color-2;
 }
 
 .carousel {

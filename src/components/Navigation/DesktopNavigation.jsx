@@ -16,8 +16,8 @@ function DesktopNavigation() {
             <Logo className={styles.logo}/>
             <nav className={styles.nav}>
                 <UnderlineLinkAnim className={styles.navLink} href="#">Home</UnderlineLinkAnim>
-                <UnderlineLinkAnim className={styles.navLink} href="#portfolio">Portfolio</UnderlineLinkAnim>
-                <UnderlineLinkAnim className={styles.navLink} href="#aboutus">About us</UnderlineLinkAnim>
+                <UnderlineLinkAnim className={styles.navLink} href="#offers">Offers</UnderlineLinkAnim>
+                <UnderlineLinkAnim className={styles.navLink} href="#about-us">About us</UnderlineLinkAnim>
                 <UnderlineLinkAnim className={styles.navLink} href="#contact">Contact</UnderlineLinkAnim>
             </nav>
         </Container>
