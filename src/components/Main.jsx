@@ -5,10 +5,13 @@
 import styles from './Main.module.css';
 
 import React from 'react';
+import OffersSection from './Sections/OffersSection.jsx';
 
 function Main() {
     return (
-        <div></div>
+        <main>
+            <OffersSection/>
+        </main>
     );
 }
 

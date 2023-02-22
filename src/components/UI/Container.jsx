@@ -2,7 +2,7 @@
  * Created by antares on 20.02.2023
  */
 
-import styles from './Container.module.css';
+import styles from './Container.module.scss';
 
 import React from 'react';
 

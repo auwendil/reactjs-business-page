@@ -2,7 +2,7 @@
  * Created by antares on 20.02.2023
  */
 
-import styles from './UnderlineLinkAnim.module.css';
+import styles from './UnderlineLinkAnim.module.scss';
 
 import React from 'react';
 

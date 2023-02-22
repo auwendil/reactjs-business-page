@@ -23,10 +23,12 @@ function Header() {
                     : <HeroImage image={desktopImage} withShadow/>
             }
 
-            <Container className={styles.companyInfo}>
-                <h1>COMPANY NAME</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eum facere facilis illum laborum
-                    laudantium nemo</p>
+            <Container>
+                <div className={styles.companyInfo}>
+                    <h1>COMPANY NAME</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eum facere facilis illum laborum
+                        laudantium nemo</p>
+                </div>
             </Container>
         </header>
     );

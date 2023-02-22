@@ -2,7 +2,7 @@
  * Created by antares on 20.02.2023
  */
 
-import styles from './Logo.module.css';
+import styles from './Logo.module.scss';
 import logo from '../../assets/logo.svg';
 
 import React from 'react';

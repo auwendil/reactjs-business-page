@@ -6,7 +6,7 @@ import colors from '../../colors.js';
 import UnderlineLinkAnim from '../Effects/Link/UnderlineLinkAnim.jsx';
 import Container from '../UI/Container.jsx';
 import Logo from '../UI/Logo.jsx';
-import styles from './DesktopNavigation.module.css';
+import styles from './DesktopNavigation.module.scss';
 
 import React from 'react';
 

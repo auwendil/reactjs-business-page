@@ -6,7 +6,7 @@ import colors from '../../colors.js';
 import UnderlineLinkAnim from '../Effects/Link/UnderlineLinkAnim.jsx';
 import BurgerButton from '../UI/Hamburger/BurgerButton.jsx';
 import Logo from '../UI/Logo.jsx';
-import styles from './MobileNavigation.module.css';
+import styles from './MobileNavigation.module.scss';
 
 import React, {useState} from 'react';
 

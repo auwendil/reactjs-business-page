@@ -2,7 +2,7 @@
  * Created by antares on 21.02.2023
  */
 
-import styles from './HeroImage.module.css';
+import styles from './HeroImage.module.scss';
 
 import React from 'react';
 
