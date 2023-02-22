@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './App.scss';
 import {Helmet} from 'react-helmet';
+import Footer from './components/Footer.jsx';
 import Header from './components/Header.jsx';
 import Main from './components/Main.jsx';
 import Navigation from './components/Navigation/Navigation.jsx';
@@ -18,6 +19,8 @@ function App() {
             <Navigation></Navigation>
             <Header/>
             <Main/>
+
+            <Footer/>
         </div>
     );
 }
